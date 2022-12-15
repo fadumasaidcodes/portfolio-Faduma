@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+	<!----hero Section start---->
+
+	<div class="hero">
+		<nav>
+			<h2 class="logo">Portfo<span>lio</span></h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#service">Portfolio</a></li>
+				<li><a href="#">Skills</a></li>
+				<li><a href="#">Contacts</a></li>
+			</ul>
+
+		</nav>
+
+		<div class="content">
+			<h4>Hello, my name is</h4>
+			<h1>Faduma Ibrahim</h1>
+			<h3>I'am a Web Developer.</h3>
+
+		</div>
+	</div>
+
+	<!----About section start---->
+	<section class="about" id="about">
+		<div class="main">
+			<img src="img/main-img.png">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<h5>Front End Developer <span>& UX Designer</span></h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero accusamus recusandae deleniti perferendis cumque exercitationem voluptatibus obcaecati porro quidem consequuntur, non numquam molestiae a, aliquam tempora placeat temporibus quae rerum..</p>
+
+			</div>
+		</div>
+	</section>
+
+	<!-----service section start----------->
+	<div class="service" id="service">
+		<div class="title">
+			<h2>Portfolio</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				<i class="fa- fa-github"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>This project is the accessible project.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://fadumasaidcodes.github.io/faduma-marketing/">View project</a>
+					</p>
+						
+					</ul>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="fa-brands fa-instagram"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Prework study guide.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://fadumasaidcodes.github.io/prework-study-guide/">View project</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="fa- fa-github"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Simple Google HTML and CSS website.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://fadumasaidcodes.github.io/google/">View project</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!------Contact Me------>
+	<div class="contact-me service">
+		<h3>Contact Form</h3>
+
+		<div class="container service">
+			<form action="/action_page.php">
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+				<label for="lname">Last Name</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+				<label for="country">Country</label>
+				<select id="country" name="country">
+					<option value="usa">UK</option>
+					<option value="australia">Australia</option>
+					<option value="canada">Canada</option>
+					<option value="usa">USA</option>
+				</select>
+
+				<label for="subject">Subject</label>
+				<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+
+	</div>
+	<!-- skills -->
+	<div class="service">
+		<h1>My Skills</h1>
+
+		<p>HTML</p>
+		<div class="container">
+			<div class="skills html">90%</div>
+		</div>
+
+		<p>CSS</p>
+		<div class="container">
+			<div class="skills css">80%</div>
+		</div>
+
+		<p>JavaScript</p>
+		<div class="container">
+			<div class="skills js">65%</div>
+		</div>
+
+		<p>React</p>
+		<div class="container">
+			<div class="skills php">60%</div>
+		</div>
+	</div>
+
+
+	<!------footer start--------->
+	<footer>
+		<p>Faduma Ibrahim</p>
+		<p>Bellow is my Github Account:</p>
+		<div class="social">
+			<a href="https://github.com/fadumasaidcodes"><i class="fa- fa-github"></i></a>
+			
+
+		</div>
+		<p class="end">CopyRight By Faduma Ibrahim</p>
+	</footer>
+</body>
+
+</html>
