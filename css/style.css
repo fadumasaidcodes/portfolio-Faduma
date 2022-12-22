@@ -383,26 +383,26 @@ footer p:nth-child(2) {
 @media (max-width: 992px)
 {
 
-    .nav
+    nav
     {
         padding-left: 30px;
         padding-right:30px;
     }
 
 
-    .nav
+    nav
     {
         width: 100%;
         margin-bottom: 20px;
     }
 
-    .portfolio
+    .service
     {
         padding-left: 20px;
  
     }
 
-    .portfolio
+    .content
     {
         display: block;
         margin-bottom: 10px;
